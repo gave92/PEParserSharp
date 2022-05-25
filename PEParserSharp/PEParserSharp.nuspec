@@ -10,7 +10,7 @@
     <projectUrl>https://github.com/gave92/PEParserSharp</projectUrl>
     <iconUrl>https://github.com/gave92/PEParserSharp/raw/master/peparser.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>PE (exe, dll) parser and icon extractor for C#</description>
+    <description>PE (exe, dll) parser and icon extractor written in C#</description>
     <releaseNotes>First release.</releaseNotes>
     <copyright>Copyright 2022 Marco Gavelli</copyright>
     <tags>PE icon extractor dll parser</tags>
@@ -21,7 +21,6 @@
   </metadata>
   <files>
     <file src="..\LICENSE.txt"/>
-    <file src="bin\Release\PEParserSharp.dll" target="lib\netstandard2.0\PEParserSharp.dll" />
-    <file src="bin\Release\PEParserSharp.xml" target="lib\netstandard2.0\PEParserSharp.xml" />
+    <file src="bin\Release\netstandard2.0\PEParserSharp.dll" target="lib\netstandard2.0\PEParserSharp.dll" />
   </files>
 </package>
