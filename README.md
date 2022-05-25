@@ -33,7 +33,7 @@ var icons = pe.ExtractIcons(256, new[] { 3, 35, 109 }); // Folder, Disk, This PC
 
 ## Supported platforms
 
-fbchat-sharp has been created as a PCL targeting .NET Standard 2.0 that supports a wide range of platforms. The list includes but is not limited to:
+PEParserSharp has been created as a PCL targeting .NET Standard 2.0 that supports a wide range of platforms. The list includes but is not limited to:
 * .NetStandard 2.0
 * .NET Core 2.0
 * .NET Framework 4.6.1
